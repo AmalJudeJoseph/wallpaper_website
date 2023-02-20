@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>making a website </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="logos.jpg" class="logo">
+            <ul>
+                <li><a href="https://unsplash.com/images/things/house">Homes</a></li>
+                <li><a href="http://127.0.0.1:5500/skyscraper.html">Skyscapers</a></li>
+                <li><a href="#">Nature</a></li>
+                <li><a href="#">Sky</a></li>
+                <li><a href="#">Vehicles</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1> Wallpapers </h1>
+            <p> Pick a wallpaper of your choosing from the above given options<br>Made by Amal Jude Joseph after starting css,html and javascript a week before his finals</p>
+            <div>
+                <button id="mybut1" type="button"><span></span>Do you like this site?</button>
+                <button id="mubut2"type="button"><span></span> Don't really care if you don't</button>
+                <script>
+
+                    const mybut1=document.getElementById("mybut1");
+                    mybut1.addEventListener("click",function(e){
+                        alert("Thank you so much!!")
+                    });
+                    const mybut2=document.getElementById("mubut2");
+                    mybut2.addEventListener("click",function(e){
+                        alert("Stilll dont caaarrreeeeee!!!!!")
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+</html>
